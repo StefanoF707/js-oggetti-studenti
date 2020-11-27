@@ -25,7 +25,7 @@ var students = [
 
 for (var i = 0; i < students.length; i++) {
     var studentNumber = i + 1;
-    console.log("Studente " + studentNumber);
+    console.log("Studente", studentNumber);
     for (var key in students[i]) {
         console.log(key + ": " + students[i][key]);
     }
